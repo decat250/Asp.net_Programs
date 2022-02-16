@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>s_20190503</Name>
+    <Description>&lt;沒有可用的說明&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>s_20190503</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="Bin" TargetFolderName="Bin">
+        <ProjectItem ReplaceParameters="false" TargetFileName="BouncyCastle.Crypto.dll">BouncyCastle.Crypto.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BouncyCastle.Crypto.dll.refresh">BouncyCastle.Crypto.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Google.Protobuf.dll">Google.Protobuf.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Google.Protobuf.dll.refresh">Google.Protobuf.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Google.Protobuf.xml">Google.Protobuf.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="MySql.Data.dll">MySql.Data.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="MySql.Data.dll.refresh">MySql.Data.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MySql.Data.xml">MySql.Data.xml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="s_20190503_1.aspx">s_20190503_1.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="s_20190503_1.aspx.cs">s_20190503_1.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="s_20190503_2.aspx">s_20190503_2.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="s_20190503_2.aspx.cs">s_20190503_2.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
